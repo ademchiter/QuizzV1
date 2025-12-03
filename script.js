@@ -11,6 +11,8 @@ let reponses = [
   "le guepard"
 ];
 
+
+//1 ère solution
     let compteur=0;
 questions.forEach(question => {
 
@@ -25,7 +27,14 @@ alert("bien joué")
 compteur=compteur+1;
 });
 
+//2 ème solution - solution que nous à expliquer nico
+questions.forEach((question, pos) => {
+const maReponse2 = prompt(question)
 
+if(maReponse2 === reponses[pos]){
 
-
- 
+alert("bien joué")
+}else {
+ alert("c'est loupé")
+}
+ });
