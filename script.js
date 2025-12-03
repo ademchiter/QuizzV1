@@ -28,21 +28,4 @@ compteur=compteur+1;
 
 
 
-
-
-/*
-questions.forEach(question => {
-    console.log(question)
-    
-});
-
-
-reponses.forEach(reponse => {
-    console.log(reponse)
-});
-
-console.log(questions[0])
-
-
-console.log(reponses[0])
-*/
+ 
